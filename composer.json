@@ -12,6 +12,6 @@
         }
     ],
     "autoload": {
-        "psr-4": {"SternerStuff\\WordPressUtils": "src/"}
+        "psr-4": {"SternerStuff\\WordPressUtils\\": "src/"}
     }
 }
