@@ -1,6 +1,6 @@
 <?php 
 
-namespace SternerStuff\WordPressUtils\Hooks;
+namespace SternerStuff\WordPressUtils\PluginsAPI;
  
 /**
  * ActionHookSubscriber is used by an object that needs to subscribe to
