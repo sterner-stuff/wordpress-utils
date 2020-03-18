@@ -1,0 +1,17 @@
+{
+    "name": "sterner-stuff/wordpress-utils",
+    "description": "Utilities for WordPress development.",
+    "homepage": "https://sternerstuff.dev",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ethan Clevenger",
+            "email": "ethan@sternerstuff.dev",
+            "homepage": "https://sternerstuff.dev",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"SternerStuff\\WordPressUtils": "src/"}
+    }
+}
