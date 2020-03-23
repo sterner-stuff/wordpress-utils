@@ -17,7 +17,7 @@ class PluginUpdatesManager
 
 		$plugin_data = get_plugin_data( $plugin_file );
 		if(empty( $plugin_data['Version'] )) {
-			throw new Exception("Plugin version not found.", 1);
+			throw new \Exception("Plugin version not found.", 1);
 		}
 		return $plugin_data['Version'];
 	}
